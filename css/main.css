@@ -1,0 +1,33 @@
+header {
+    background: lightgrey;
+}
+header, nav {
+    margin-bottom: 30px;
+}
+.sidebar {
+    width:300px;
+    height: 100%;
+    right: 10px;
+    background: lightgrey;
+}
+
+.table-of-contents {
+    background: lightgrey;
+}
+#ideal-kg {
+    margin: 30px auto;
+}
+input {
+    margin: 30px auto;
+}
+#out1, #out2, #out3, #out4 {
+    padding: 20px 10px;
+    background: lightgrey;
+    font-size: 1.5;
+ }
+footer {
+    margin-top: 30px;
+}
+.input-field {
+    margin: 30px auto;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="nav"></div>
+    <div class="sidebar"></div>
+        <div class="main container">
+            <div id="zodiak-st" class="input-field col l6 s12">
+                <select>
+                    <option value="" disabled selected>Выбрать знак зодиака</option>
+                    <option value="Овен">Овен</option>
+                    <option value="Телец">Телец</option>
+                    <option value="Близнецы">Близнецы</option>
+                    <option value="Рак">Рак</option>
+                    <option value="Лев">Лев</option>
+                    <option value="Дева">Дева</option>
+                    <option value="Весы">Весы</option>
+                    <option value="Скорпион">Скорпион</option>
+                    <option value="Стрелец">Стрелец</option>
+                    <option value="Козерог">Козерог</option>
+                    <option value="Водолей">Водолей</option>
+                    <option value="Рыбы">Рыбы</option>
+                </select>
+                <label>Месяц рождения</label>
+            </div>
+
+            <div class="empty-st"></div>
+            <div>
+                <a id="zodiak-st-btn" class="waves-effect waves-light btn"><i class="material-icons right">subject</i>Узнать какой драгоценный камень</a>
+            </div>
+            <div id="zodiak-box-st"></div>
+        </div>
+    <div class="footer"></div>
+
+    <!--Import jQuery before materialize.js-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/template.js"></script>
+</body>
+</html>

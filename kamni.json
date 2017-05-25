@@ -1,0 +1,68 @@
+{
+  "Бриллиант" : {
+    "znak" : "Овен,Дева,Весы",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/iskusstvenny-brilliant-n91d2nw25mcfrxwaxgikyikcwy46qli8vre1o2ojwk.jpg",
+    "description" : "символ невинности, твердости и храбрости, защищает и помогает в решении проблем."
+    },
+  "Аметист": {
+    "znak" : "Овен,Близнецы,Рак,Весы,Скорпион,Стрелец,Козерог,Водолей,Рыбы",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/ametist-3-n91cnpajdjw9wkb7yn29u059aur9rt2f0okhqfx13k.jpg",
+    "description" : "символ сердечного спокойствия."
+  },
+  "Жемчуг": {
+    "znak" : "Овен,Близнецы,Рак,Водолей,Рыбы",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/zhemchug-foto-1-n29ymv33n04b183y726h8drfcf2kqik71316fbbykw.jpg",
+    "description" : "символ преданности и любви."
+  },
+  "Рубин": {
+    "znak" : "Овен,Телец,Рак,Лев,Скорпион,Козерог",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/rubin-n91d40ro108hgulvo703mdwckoboemunlgayodpz2o.jpg",
+    "description" : "камень власти и страстной любви."
+  },
+  "Хризолит": {
+    "znak" : "Овен,Близнецы,Рак,Лев,Дева,Весы,Стрелец,Рыбы",
+    "logo" : "http://dragkam.ru/wp-content/uploads/2016/foto/57-1-1.jpg",
+    "description" : "камень-оберег, приносит спокойствие и равновесие."
+  },
+  "Гранат" : {
+    "znak" : "Овен,Лев,Дева,Скорпион,Стрелец,Козерог,Водолей",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/garnet-n91d26yyqlqew59gcek7rui2zpbzftlg0emz30fj68.jpg",
+    "description" : "символ постоянства."
+  },
+  "Изумруд": {
+    "znak" : "Телец,Близнецы,Рак,Лев,Дева,Весы,Стрелец,Водолей",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/izumrud-5-n91coo2kef7vu4wpbk3gw9dba3zuolwhhgpghohgpc.jpg",
+    "description" : "символ счастливой любви, приносит удачу и радость."
+  },
+  "Оникс": {
+    "znak" : "Телец,",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/Onyx-n91d3rda4nvm8qzj72xtxg9qmtm09ntc85s3vm3wsw.jpg",
+    "description" : "Считается, что оникс способствует накоплению жизненной энергии, поскольку способен поглощать энергию негативную. Говорят, что ониксы помогают избавиться от нерешительности и мнительности. Это камень уверенных в себе людей, умеющих настаивать на своем. Перстень с ониксом охраняет владельца от внезапной смерти."
+  },
+  "Сапфир": {
+    "znak" : "Телец,Близнецы,Дева,Скорпион,Стрелец,Водолей,Рыбы",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/sapfiry-vatikana-n2bhecqs2gxw5uer2qxmgdt19bug8c8p320tva6lzk.jpg",
+    "description" : "символ верности, целомудрия и скромности, приносит счастье и радость."
+  },
+  "Топаз": {
+    "znak" : "Телец,Близнецы,Рак,Лев,Скорпион,Стрелец",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/Topaz-n91d4p7gyp5xupmdphkef7qc0oz7yrjoct9l5kpqkw.jpeg",
+    "description" : "Топазы издавна известны людям. Уместно вспомнить, что, согласно Библии, топаз был одним из камней, закрепленных в нагрудном украшении (наперснике) первосвященника Аарона"
+  },
+  "Цитрин": {
+    "znak" : "Близнецы,Лев,Дева,Весы,Водолей",
+    "logo" : "http://dragkam.ru/wp-content/uploads/2016/12/citrin-3.jpg",
+    "description" : "Желтые цитрины издавна использовались как магические и целебные талисманы. Они считались камнями мудрости и спокойствия, способными спасти человека от депрессии. В Древнем Риме ораторы и сенаторы специально носили при себе кристаллы цитрина, ибо считалось, что эти камни развивают красноречие и укрепляют память. Считалось также, что цитрины способствуют человеческому взаимопониманию и помогают устанавливать психологические контакты между людьми."
+  },
+  "Раухтопаз": {
+    "znak" : "Козерог",
+    "logo" : "http://dragkam.ru/wp-content/uploads/bfi_thumb/Quartz-var-Smoky-n91d3xy5gi3hku1egifauoxy0tt67rl3e3cu6ms9ae.jpg",
+    "description" : "камень, избавляющий от боли и стресса, обладает успокаивающими свойствами."
+  },
+  "Аквамарин": {
+    "znak" : "Рыбы",
+    "logo" : "http://dragkam.ru/wp-content/uploads/2016/12/aquamarin-1.jpg",
+    "description" : "\"камень влюбленных\", оберегает супружеское счастье, способствует благополучию в жизни, символ удачи."
+  }
+
+}
