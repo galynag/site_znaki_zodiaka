@@ -1,7 +1,17 @@
 var massZodiak={};
 var massZodiakSt={};
+var massZodiakKarma={};
 var month,day;
+var monthKarma='';
+var dayKarma='';
+var yearKarma='';
+var n=0;
+var n1=0;
+var n2=0;
+var n3=0;
 var zodiakSt='';
+
+
 
  $(document).ready(function() {
      $('.datepicker').pickadate({
@@ -87,6 +97,43 @@ function searchSt() {
         }
     }
 }
+     $('#zodiak-karma').click(function() {
+         dayKarma=$('#day-karma select option:checked').val();
+         monthKarma=$('#month-karma select option:checked').val();
+         yearKarma=$('#year-karma').val();
+
+         console.log(dayKarma,monthKarma,yearKarma,yearKarma.length);
+         $.getJSON("karma.json",function(data){
+             massZodiakKarma=data;
+             searchKarma();
+         });
+     });
+
+     function searchKarma() {
+         $('.name-zodiak-karma').remove();
+         n1=0;
+         n2=0;
+         n3=0;
+         for (var i=0; i<yearKarma.length;i++) {
+             n1=n1+Number(yearKarma.charAt(i));
+         }
+         for (var i1=0; i1<dayKarma.length;i1++) {
+             n2=n2+Number(dayKarma.charAt(i1));
+         }
+         for (var i2=0; i2<monthKarma.length;i2++) {
+             n3=n3+Number(monthKarma.charAt(i2));
+         }
+         n=n1+n2+n3;
+
+         for (key in massZodiakKarma) {
+             if (key == n) {
+                 var nameKarma = document.createElement('div');
+                 nameKarma.className = 'name-zodiak-karma';
+                 nameKarma.innerHTML = massZodiakKarma[key];
+                 $('#zodiak-karma-box').append(nameKarma);
+             }
+         }
+     }
 
  });
 
