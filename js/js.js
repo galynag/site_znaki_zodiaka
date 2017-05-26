@@ -59,7 +59,8 @@ $('#zodiak').click(function() {
              $('#zodiak-box').append(descrZ);
              var buttonZ = document.createElement('a');
              buttonZ.className = 'name-zodiak waves-effect waves-light btn';
-             buttonZ.innerHTML = 'Узнать какие драгоценные камни подходят для знака'+ ' <b>'+key+'</b>';
+             buttonZ.innerHTML = 'Узнать какие драгоценные камни подходят для знака'+ ' <b>'+key+'</b>  ';
+             buttonZ.href='http://upscale.promo.net.ua/gavrina/zodiak/stones.html',
              $('#zodiak-box').append(buttonZ);
          }
      }
